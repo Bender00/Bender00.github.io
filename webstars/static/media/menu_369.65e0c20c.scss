@@ -1,0 +1,20 @@
+.menu_369 {
+    margin-top: -2%;
+    background-color: #f0f1f6;
+    margin-bottom: 1.5%;
+    width: 100%;
+
+    li {
+        padding: 2px;
+        width: 16,6%;
+        margin: auto;
+        margin-left: 0;
+        &:hover {
+            background-color: #3eade2;
+        }
+
+    }
+    .nav-item:first-child {
+        background-color: #3eade2;
+    }
+}
