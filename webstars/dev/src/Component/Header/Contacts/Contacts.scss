@@ -1,0 +1,49 @@
+.contacts {
+    float: left;
+    padding: 0;
+
+
+}
+.contacts__item_1 {
+    margin-right: 0;
+    padding-right: 0;
+    text-align: right;
+    p {
+        font-size: 1.3em;
+    }
+    
+
+}
+.contacts__item_2 {
+    text-align: right;
+    padding: 0;
+    p {
+        color: #cb944c;
+    }
+    p:last-child {
+        color: #2b3056;
+    }
+}
+
+
+p {
+
+    margin: 0;
+}
+
+// media min-width: 768
+@media (min-width: 768px) {
+    @media (max-width: 991.98px) {
+        .contacts__item_1 {
+            p {
+                font-size: 1em;
+                font-weight: bold;
+            }
+        }
+        .contacts__item_2 {
+            p {
+                font-size: 0.85em;
+            }
+        }
+    }
+}
